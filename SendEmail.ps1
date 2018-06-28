@@ -1,7 +1,7 @@
 # Reference -- http://www.adminarsenal.com/admin-arsenal-blog/powershell-sending-email-with-gmail-example/
 # Reference -- http://www.owenwebs.com/2014/12/09/powershell-to-check-and-start-a-service/
 # Add any lines just after line 37 with a service name like  -- FuncCheckService -ServiceName "<check this name from services and key in here>"
-$From = "Do Not Reply System Email<BookingBossServiceCheckJob@bookingboss.com>"
+$From = "Do Not Reply System Email<ServiceCheckJob@gmail.com>"
 $To = @("email1@gmail.com", "First <email1@gmail.com>", "Second <secondemail@gmail.com>")
 $Cc = "Copy email<emailcopy@gmail.com>"
 $Subject = " -- Service on -- " + $env:computername
